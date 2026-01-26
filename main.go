@@ -7,16 +7,17 @@ import (
 	"log"
 	"net/http"
 	"net/url"
+	"os"
+
+	"github.com/joho/godotenv"
 )
 
 func main() {
-
-	// Put your weather api key below
-	const API_KEY = ""
-
+	godotenv.Load()
+	API_KEY := os.Getenv("API_KEY")
 	city := pkg.GetUserInput()
 	encodedCity := url.QueryEscape(city)
-	numOfDays := 5
+	numOfDays := 3
 
 	url := fmt.Sprintf("http://api.weatherapi.com/v1/forecast.json?key=%s&q=%s&days=%d",
 		API_KEY, encodedCity, numOfDays)

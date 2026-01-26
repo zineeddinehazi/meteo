@@ -6,7 +6,7 @@
 ## Quick Start
 
 1. Get FREE API Key: https://www.weatherapi.com
-2. Set key: `const API_KEY="your_key_here"` 
+2. Set key: `API_KEY="your_key_here"` in a `.env` file.
 3. Clone the repo and `cd` to it: 
 
 ```bash
