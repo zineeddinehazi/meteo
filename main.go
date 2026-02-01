@@ -2,7 +2,7 @@ package main
 
 import (
 	"encoding/json"
-	"example/go-forecast/pkg"
+	"example/meteo/pkg"
 	"fmt"
 	"log"
 	"net/http"

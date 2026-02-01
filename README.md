@@ -10,11 +10,11 @@
 3. Clone the repo and `cd` to it: 
 
 ```bash
-git clone https://github.com/zineeddinehazi/go-forecast.git
-cd go-forecast
+git clone https://github.com/zineeddinehazi/meteo.git
+cd meteo
 ```
 
-3. Run: `go run main.go`
+3. Run: `go build .` then `./meteo`
 4. Enter city:
 
 ```bash

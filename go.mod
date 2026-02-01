@@ -1,4 +1,4 @@
-module example/go-forecast
+module example/meteo
 
 go 1.25.5
 
